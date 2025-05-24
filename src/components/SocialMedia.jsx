@@ -6,7 +6,7 @@ export default function SocialMedia(){
     ]
 
     return(
-        <ul className="flex justify-end text-left space-y-4 transform rotate-270 whitespace-nowrap gap-16 absolute bottom-40 -right-24">
+        <ul className="flex justify-end text-left space-y-4 transform lg:rotate-270 whitespace-nowrap gap-12 absolute bottom-10 -right-18 text-sm">
             {socialMedia.map(medium=>(
                 <li key={medium.Medium}><a href={medium.Link}>{medium.Medium}</a></li>
             ))}

@@ -7,8 +7,8 @@ const navComponents = [
 ]
     return(
         <nav className="flex justify-between p-5">
-            <p className="font-bolder">npa&copy;</p>
-            <ul className="flex gap-4">
+            <p className="font-bold">npa&copy;</p>
+            <ul className="flex gap-4 font-semibold">
                 {navComponents.map(component=>(
                     <li key={component}><a href={component.Link}>{component.components}</a></li>
                 ))}
