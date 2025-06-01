@@ -1,15 +1,19 @@
-export default function SocialMedia(){
-    const socialMedia = [
-        {Medium: "GitHub", Link:"https://github.com/WillAmbe-Corp"},
-        {Medium: "LinkedIn", Link:"https://www.linkedin.com/in/princewill-ambe-neba/"},
-        {Medium: "X", Link: "https://x.com/willambe"}
-    ]
+const socialMedia = [
+    { Medium: "GitHub", Link: "https://github.com/WillAmbe-Corp" },
+    { Medium: "LinkedIn", Link: "https://www.linkedin.com/in/princewill-ambe-neba/" },
+    { Medium: "X", Link: "https://x.com/willambe" }
+];
 
-    return(
-        <ul className="flex justify-end text-left space-y-4 transform lg:rotate-270 whitespace-nowrap gap-12 absolute bottom-10 -right-18 text-sm">
-            {socialMedia.map(medium=>(
-                <li key={medium.Medium}><a href={medium.Link}>{medium.Medium}</a></li>
+export default function SocialMedia() {
+    return (
+        <ul className="flex gap-12 text-sm lg:absolute lg:bottom-10 lg:-right-18 lg:rotate-270">
+            {socialMedia.map(({ Medium, Link }) => (
+                <li key={Medium}>
+                    <a href={Link} target="_blank" rel="noopener noreferrer" className="hover:text-gray-600">
+                        {Medium}
+                    </a>
+                </li>
             ))}
         </ul>
-    )
+    );
 } 

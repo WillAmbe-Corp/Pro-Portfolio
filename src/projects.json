@@ -1,0 +1,44 @@
+{
+    "Projects": [
+        {
+          "Project": "FlexLanguage",
+          "Link": "https://flexlanguage.vercel.app/",
+          "Type": "Website",
+          "Year": "2025",
+          "Purpose": "Internship",
+          "Description": "A cutting-edge language learning platform that combines AI-powered personalization with interactive learning modules. Features include real-time pronunciation analysis, vocabulary tracking, customized lesson plans, and a gamified learning experience to keep users engaged and motivated."
+        },
+        {
+            "Project": "AirBnB",
+            "Link": "/",
+            "Type": "Web App",
+            "Year": "2025",
+            "Purpose": "Personal",
+            "Description": "A comprehensive AirBnB clone application featuring real-time property search, secure payment integration, user authentication, and an interactive booking system. Includes features like property reviews, host messaging, and dynamic pricing based on seasonal demand."
+        },
+        {
+            "Project": "Bento Grid",
+            "Link": "https://bento-grid-azure.vercel.app/",
+            "Type": "Website",
+            "Year": "2025",
+            "Purpose": "Personal",
+            "Description": "A modern portfolio website utilizing the trending Bento Grid layout design. Features smooth animations, interactive project cards, dynamic content loading, and a fully responsive design. Implements advanced CSS Grid techniques for an aesthetically pleasing and user-friendly showcase of work."
+        },
+        {
+            "Project": "News Homepage",
+            "Link": "/",
+            "Type": "Website",
+            "Year": "2024",
+            "Purpose": "Personal",
+            "Description": "A modern and responsive news website homepage featuring a dynamic grid layout, interactive navigation, breaking news sections, and trending topics. Built with accessibility in mind, it includes mobile-first design, and optimized performance for fast content delivery."
+        },
+        {
+            "Project": "OpenMRS",
+            "Link": "/",
+            "Type": "Web Application",
+            "Year": "2024",
+            "Purpose": "Healthcare",
+            "Description": "A comprehensive electronic medical record system implementation featuring patient management, appointment scheduling, and medical history tracking. Integrated with the OpenMRS platform, it includes custom modules for local healthcare needs, robust security measures, and an intuitive interface for healthcare providers."
+        }
+    ]
+}

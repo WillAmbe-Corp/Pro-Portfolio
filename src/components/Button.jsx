@@ -1,8 +1,10 @@
-export default function Button (props){
+export default function Button({ buttons, onClick, className = '' }) {
     return (
-        <>
-            <button className='lg:border px-12 py-2 absolute -bottom-2 bg-white text-[10px] right-28 cursor-pointer rounded-4xl'>{props.buttons}</button> 
-            <br />
-        </>
-    )
+        <button
+            onClick={onClick}
+            className={`px-6 py-2 bg-white rounded-4xl text-black border border-black hover:bg-gray-800 hover:text-white transition-colors ${className}`}
+        >
+            {buttons}
+        </button>
+    );
 }
