@@ -1,5 +1,5 @@
 import Me from '../assets/Images/Me.jpg';
-import CITS from '../assets/Images/CITS.png';
+import citsImage from '../assets/Images/CITS.PNG';
 import TiC from '../assets/Images/TiC.jpg';
 import SocialMedia from "../components/SocialMedia";
 import DownloadButton from "../components/DownloadButton";
@@ -17,8 +17,8 @@ export default function About() {
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <img 
-                                src={CITS} 
-                                alt="CITS Project Screenshot" 
+                                src={citsImage} 
+                                alt="citsImage Project Screenshot" 
                                 className="w-full sm:w-[200px] h-auto" 
                                 loading="lazy"
                             />
@@ -73,8 +73,8 @@ export default function About() {
                         </p>
                         <div className="flex pt-10">
                             <img 
-                                src={CITS} 
-                                alt="CITS Project Screenshot" 
+                                src={citsImage} 
+                                alt="citsImage Project Screenshot" 
                                 className="w-70" 
                                 loading="lazy"
                             />
