@@ -53,7 +53,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
-          utils: ['./src/utils']
+          // utils: ['./src/utils']
         },
         assetFileNames: (assetInfo) => {
           let extType = assetInfo.name.split('.').at(1);
