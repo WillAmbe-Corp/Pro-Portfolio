@@ -1,6 +1,6 @@
 import Me from '../assets/Images/Me.jpg';
 import citsImage from '../assets/Images/CITS.PNG';
-import TiC from '../assets/Images/TiC.jpg';
+import fCC from '../assets/Images/fCC.jpg';
 import SocialMedia from "../components/SocialMedia";
 import DownloadButton from "../components/DownloadButton";
 
@@ -18,13 +18,13 @@ export default function About() {
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <img 
                                 src={citsImage} 
-                                alt="citsImage Project Screenshot" 
+                                alt="CITS vonluteerism certificate" 
                                 className="w-full sm:w-[200px] h-auto" 
                                 loading="lazy"
                             />
                             <img 
-                                src={TiC} 
-                                alt="TiC Project Screenshot" 
+                                src={fCC} 
+                                alt="FreeCodeCamp Frontend Library Certification" 
                                 className="w-full sm:w-[200px] h-auto sm:mt-10" 
                                 loading="lazy"
                             />
@@ -74,13 +74,13 @@ export default function About() {
                         <div className="flex pt-10">
                             <img 
                                 src={citsImage} 
-                                alt="citsImage Project Screenshot" 
+                                alt="CITS vonluteerism certificate" 
                                 className="w-70" 
                                 loading="lazy"
                             />
                             <img 
-                                src={TiC} 
-                                alt="TiC Project Screenshot" 
+                                src={fCC} 
+                                alt="FreeCodeCamp Frontend Library Certification" 
                                 className="w-70 relative -bottom-10 ml-5" 
                                 loading="lazy"
                             />
